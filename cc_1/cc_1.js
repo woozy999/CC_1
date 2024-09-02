@@ -42,3 +42,15 @@ console.log("New balance after 15% fee:", accountBalance);
 
 accountBalance %= 100;
 console.log("Remainder after dividing by 100:", accountBalance);
+
+//part 4
+
+let employeeScore1 = 82;
+let employeeScore2 = 94;
+
+console.log("Is Employee 1's score greater than Employee 2?", employeeScore1 > employeeScore2)
+console.log("Is Employee 1's score less than Employee 2?", employeeScore1 < employeeScore2)
+console.log("Is Employee 1's score greater than or equal to Employee 2?", employeeScore1 >= employeeScore2)
+console.log("Is Employee 1's score less than or equal to Employee 2?", employeeScore1 <= employeeScore2)
+console.log("Are Employee 1 and 2's scores exactly equal?", employeeScore1 === employeeScore2)
+console.log("Are Employee 1 and 2's scores not equal?", employeeScore1 !== employeeScore2)
