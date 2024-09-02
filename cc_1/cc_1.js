@@ -54,3 +54,17 @@ console.log("Is Employee 1's score greater than or equal to Employee 2?", employ
 console.log("Is Employee 1's score less than or equal to Employee 2?", employeeScore1 <= employeeScore2)
 console.log("Are Employee 1 and 2's scores exactly equal?", employeeScore1 === employeeScore2)
 console.log("Are Employee 1 and 2's scores not equal?", employeeScore1 !== employeeScore2)
+
+//part 5
+
+let hasKeyCard = true;
+let hasPermission = false;
+
+let canAccess = hasKeyCard && hasPermission;
+console.log("Can access with key card and proper permission", canAccess);
+
+canAccess = hasKeyCard || hasPermission;
+console.log("Can access with either key card and proper permission", canAccess);
+
+let noPermission = !hasPermission;
+console.log("Does the user lack permission?", noPermission);
